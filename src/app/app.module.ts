@@ -4,12 +4,14 @@ import {DndModule} from 'ng2-dnd';
 
 import { AppComponent } from './app.component';
 import { ColumnViewComponent } from './column-view/column-view.component';
+import { ToDoPomodorosComponent } from './to-do-pomodoros/to-do-pomodoros.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    ColumnViewComponent
+    ColumnViewComponent,
+    ToDoPomodorosComponent
   ],
   imports: [
     BrowserModule,
