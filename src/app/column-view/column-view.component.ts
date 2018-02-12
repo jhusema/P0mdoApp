@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./column-view.component.css']
 })
 export class ColumnViewComponent implements OnInit {
-  simpleDrop: any = null;
+  simpleDrop: any = null; 
   availableProducts: Array<Product> = [];
   shoppingBasket: Array<Product> = [];
 
